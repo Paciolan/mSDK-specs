@@ -1,0 +1,57 @@
+{
+  "name": "SdkApp",
+  "version": "0.1.6",
+  "summary": "mSDK Pod Component",
+  "description": "This pod allows us to install the react native mSDK application into a native app.",
+  "homepage": "https://gitlabdev.paciolan.info/development/application/integration/mobile/msdk-pod.git",
+  "license": {
+    "type": "No License"
+  },
+  "authors": {
+    "Daniel Escobedo": "descobedo@paciolan.com"
+  },
+  "source": {
+    "git": "https://gitlab+deploy-token-4:hKoiyi55BUhu-SZTxGs5@gitlabdev.paciolan.info/development/application/integration/mobile/msdk-pod.git",
+    "tag": "0.1.6"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{SdkApp.js,assets}",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "React/Core": [
+      "0.57.8"
+    ],
+    "React/CxxBridge": [
+      "0.57.8"
+    ],
+    "React/RCTAnimation": [
+      "0.57.8"
+    ],
+    "React/RCTImage": [
+      "0.57.8"
+    ],
+    "React/RCTLinkingIOS": [
+      "0.57.8"
+    ],
+    "React/RCTNetwork": [
+      "0.57.8"
+    ],
+    "React/RCTText": [
+      "0.57.8"
+    ],
+    "yoga": [
+      "0.57.8.React"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "Folly": [
+      "2016.10.31.00"
+    ],
+    "glog": [
+      "0.3.5"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "RNAwesomeCardIO",
+  "version": "0.8.2",
+  "summary": "A complete and cross-platform React Native component for card.io",
+  "requires_arc": true,
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/Kerumen/react-native-awesome-card-io",
+  "authors": {
+    "Yann Pringault": "yann.pringault@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Kerumen/react-native-awesome-card-io",
+    "tag": "v0.8.2"
+  },
+  "source_files": [
+    "ios/*.{h,m}",
+    "ios/CardIO/*.h"
+  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "Accelerate",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreMedia",
+    "CoreVideo",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "Security",
+    "UIKit"
+  ],
+  "libraries": "c++",
+  "vendored_libraries": [
+    "ios/CardIO/libCardIO.a",
+    "ios/CardIO/libopencv_core.a",
+    "ios/CardIO/libopencv_imgproc.a"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

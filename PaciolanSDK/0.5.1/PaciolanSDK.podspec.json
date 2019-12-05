@@ -1,0 +1,60 @@
+{
+  "name": "PaciolanSDK",
+  "version": "0.5.1",
+  "summary": "Pod Component for Paciolan Mobile SDK",
+  "description": "This pod allows us to install the Paciolan react native SDK ViewController into an iOS app.",
+  "homepage": "https://gitlabdev.paciolan.info/development/application/integration/mobile/msdk-pod.git",
+  "license": {
+    "type": "No License"
+  },
+  "authors": {
+    "Paciolan Mobile Team": "pacmobile@paciolan.com"
+  },
+  "source": {
+    "git": "https://gitlab+deploy-token-4:hKoiyi55BUhu-SZTxGs5@gitlabdev.paciolan.info/development/application/integration/mobile/msdk-pod.git",
+    "tag": "0.5.1"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{PaciolanSDK.js,assets}",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "React/Core": [
+      "0.57.8"
+    ],
+    "React/CxxBridge": [
+      "0.57.8"
+    ],
+    "React/RCTAnimation": [
+      "0.57.8"
+    ],
+    "React/RCTImage": [
+      "0.57.8"
+    ],
+    "React/RCTLinkingIOS": [
+      "0.57.8"
+    ],
+    "React/RCTNetwork": [
+      "0.57.8"
+    ],
+    "React/RCTText": [
+      "0.57.8"
+    ],
+    "yoga": [
+      "0.57.8.React"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "Folly": [
+      "2016.10.31.00"
+    ],
+    "glog": [
+      "0.3.5"
+    ],
+    "CodePush": [
+      "5.6.0"
+    ]
+  }
+}
