@@ -10,7 +10,7 @@
     "ios": "7.0"
   },
   "source": {
-    "git": "git+https://github.com/paciolan/react-native-payments.git.git",
+    "git": "https://github.com/paciolan/react-native-payments.git",
     "tag": "0.7.13"
   },
   "source_files": "**/*.{h,m}",
