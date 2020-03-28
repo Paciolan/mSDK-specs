@@ -1,0 +1,94 @@
+{
+  "name": "PaciolanSDK",
+  "version": "3.2.0",
+  "summary": "Pod Component for Paciolan Mobile SDK",
+  "description": "This pod allows us to install the Paciolan react native SDK ViewController into an iOS app.",
+  "homepage": "https://github.com/Paciolan/mSDK-pod",
+  "license": {
+    "type": "No License"
+  },
+  "authors": {
+    "Paciolan Mobile Team": "pacmobile@paciolan.com"
+  },
+  "source": {
+    "git": "https://github.com/Paciolan/mSDK-pod.git",
+    "tag": "3.2.0"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{PaciolanSDK.js,assets}",
+  "ios": {
+    "resource_bundles": {
+      "PaciolanSDK": [
+        "Pod/Assets/{PaciolanSDK.js,assets}"
+      ]
+    }
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "React/Core": [
+      "0.59.10"
+    ],
+    "React/CxxBridge": [
+      "0.59.10"
+    ],
+    "React/RCTActionSheet": [
+      "0.59.10"
+    ],
+    "React/RCTAnimation": [
+      "0.59.10"
+    ],
+    "React/RCTImage": [
+      "0.59.10"
+    ],
+    "React/RCTLinkingIOS": [
+      "0.59.10"
+    ],
+    "React/RCTNetwork": [
+      "0.59.10"
+    ],
+    "React/RCTText": [
+      "0.59.10"
+    ],
+    "yoga": [
+      "0.59.10.React"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "Folly": [
+      "2018.10.22.00"
+    ],
+    "glog": [
+      "0.3.5"
+    ],
+    "CodePush": [
+      "5.7.0"
+    ],
+    "RNI18n": [
+      "2.0.14"
+    ],
+    "RNAwesomeCardIO": [
+      "0.8.2"
+    ],
+    "RNSVG": [
+      "9.13.6"
+    ],
+    "RNReactNativeHapticFeedback": [
+      "1.9.0"
+    ],
+    "ReactNativePayments": [
+      "0.7.17"
+    ],
+    "react-native-webview": [
+      "5.8.0"
+    ],
+    "RNDeviceInfo": [
+      "5.5.3"
+    ],
+    "RNCAsyncStorage": [
+      "1.8.1"
+    ]
+  }
+}
