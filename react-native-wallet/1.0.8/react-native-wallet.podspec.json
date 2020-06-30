@@ -1,0 +1,30 @@
+{
+  "name": "react-native-wallet",
+  "version": "1.0.8",
+  "summary": "Apple Wallet ReactNative module.",
+  "description": "Apple Wallet ReactNative module.",
+  "license": "MIT License",
+  "authors": {
+    "name": "Erik Poort"
+  },
+  "homepage": "https://github.com/erikpoort/react-native-wallet#readme",
+  "source": {
+    "git": "https://github.com/erikpoort/react-native-wallet",
+    "tag": "1.0.8"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": [
+    "README.md",
+    "package.json",
+    "src/*"
+  ],
+  "source_files": "ios/**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}
