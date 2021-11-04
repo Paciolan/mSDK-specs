@@ -1,0 +1,139 @@
+{
+  "name": "PaciolanSDK",
+  "version": "4.1.3",
+  "summary": "Pod Component for Paciolan Mobile SDK",
+  "description": "This pod allows us to install the Paciolan react native SDK ViewController into an iOS app.",
+  "homepage": "https://github.com/Paciolan/mSDK-pod",
+  "license": {
+    "type": "No License"
+  },
+  "authors": {
+    "Paciolan Mobile Team": "pacmobile@paciolan.com"
+  },
+  "source": {
+    "git": "https://github.com/Paciolan/mSDK-pod.git",
+    "tag": "4.1.3"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{PaciolanSDK.js,assets}",
+  "ios": {
+    "resource_bundles": {
+      "PaciolanSDK": [
+        "Pod/Assets/{PaciolanSDK.js,assets}"
+      ]
+    }
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "React": [
+      "0.63.2"
+    ],
+    "React-Core": [
+      "0.63.2"
+    ],
+    "React-CoreModules": [
+      "0.63.2"
+    ],
+    "React-RCTActionSheet": [
+      "0.63.2"
+    ],
+    "React-RCTAnimation": [
+      "0.63.2"
+    ],
+    "React-RCTBlob": [
+      "0.63.2"
+    ],
+    "React-RCTImage": [
+      "0.63.2"
+    ],
+    "React-RCTLinking": [
+      "0.63.2"
+    ],
+    "React-RCTNetwork": [
+      "0.63.2"
+    ],
+    "React-RCTSettings": [
+      "0.63.2"
+    ],
+    "React-RCTText": [
+      "0.63.2"
+    ],
+    "React-RCTVibration": [
+      "0.63.2"
+    ],
+    "React-cxxreact": [
+      "0.63.2"
+    ],
+    "React-jsi": [
+      "0.63.2"
+    ],
+    "React-jsiexecutor": [
+      "0.63.2"
+    ],
+    "FBReactNativeSpec": [
+      "0.63.2"
+    ],
+    "RCTTypeSafety": [
+      "0.63.2"
+    ],
+    "ReactCommon": [
+      "0.63.2"
+    ],
+    "Yoga": [
+      "1.14.0"
+    ],
+    "RCTRequired": [
+      "0.63.2"
+    ],
+    "FBLazyVector": [
+      "0.63.2"
+    ],
+    "React-jsinspector": [
+      "0.63.2"
+    ],
+    "React-callinvoker": [
+      "0.63.2"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "Folly": [
+      "2020.01.13.00"
+    ],
+    "glog": [
+      "0.3.5"
+    ],
+    "CodePush": [
+      "6.2.0"
+    ],
+    "RNI18n": [
+      "2.0.14"
+    ],
+    "RNAwesomeCardIO": [
+      "0.8.2"
+    ],
+    "RNSVG": [
+      "12.1.0"
+    ],
+    "RNReactNativeHapticFeedback": [
+      "1.9.0"
+    ],
+    "ReactNativePayments": [
+      "0.7.17"
+    ],
+    "react-native-webview": [
+      "9.4.0"
+    ],
+    "RNDeviceInfo": [
+      "5.5.6"
+    ],
+    "RNCAsyncStorage": [
+      "1.9.0"
+    ],
+    "react-native-wallet": [
+      "1.0.8"
+    ]
+  }
+}
