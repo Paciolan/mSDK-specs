@@ -1,0 +1,154 @@
+{
+  "name": "PaciolanSDK",
+  "version": "4.6.1",
+  "summary": "Pod Component for Paciolan Mobile SDK",
+  "description": "This pod allows us to install the Paciolan react native SDK ViewController into an iOS app.",
+  "homepage": "https://github.com/Paciolan/mSDK-pod",
+  "license": {
+    "type": "No License"
+  },
+  "authors": {
+    "Paciolan Mobile Team": "pacmobile@paciolan.com"
+  },
+  "source": {
+    "git": "https://github.com/Paciolan/mSDK-pod.git",
+    "tag": "4.6.1"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "resources": "Pod/Assets/{PaciolanSDK.js,assets}",
+  "ios": {
+    "resource_bundles": {
+      "PaciolanSDK": [
+        "Pod/Assets/{PaciolanSDK.js,assets}"
+      ]
+    }
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "React": [
+      "0.67.4"
+    ],
+    "React-Core": [
+      "0.67.4"
+    ],
+    "React-CoreModules": [
+      "0.67.4"
+    ],
+    "React-RCTActionSheet": [
+      "0.67.4"
+    ],
+    "React-RCTAnimation": [
+      "0.67.4"
+    ],
+    "React-RCTBlob": [
+      "0.67.4"
+    ],
+    "React-RCTImage": [
+      "0.67.4"
+    ],
+    "React-RCTLinking": [
+      "0.67.4"
+    ],
+    "React-RCTNetwork": [
+      "0.67.4"
+    ],
+    "React-RCTSettings": [
+      "0.67.4"
+    ],
+    "React-RCTText": [
+      "0.67.4"
+    ],
+    "React-RCTVibration": [
+      "0.67.4"
+    ],
+    "React-cxxreact": [
+      "0.67.4"
+    ],
+    "React-jsi": [
+      "0.67.4"
+    ],
+    "React-jsiexecutor": [
+      "0.67.4"
+    ],
+    "FBReactNativeSpec": [
+      "0.67.4"
+    ],
+    "RCTTypeSafety": [
+      "0.67.4"
+    ],
+    "ReactCommon": [
+      "0.67.4"
+    ],
+    "Yoga": [
+      "1.14.1"
+    ],
+    "RCTRequired": [
+      "0.67.4"
+    ],
+    "FBLazyVector": [
+      "0.67.4"
+    ],
+    "React-jsinspector": [
+      "0.67.4"
+    ],
+    "React-callinvoker": [
+      "0.67.4"
+    ],
+    "React-perflogger": [
+      "0.67.4"
+    ],
+    "React-runtimeexecutor": [
+      "0.67.4"
+    ],
+    "React-logger": [
+      "0.67.4"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "RCT-Folly": [
+      "2021.06.28.00-v2"
+    ],
+    "glog": [
+      "0.3.5"
+    ],
+    "boost": [
+      "1.76.0"
+    ],
+    "CodePush": [
+      "6.2.0"
+    ],
+    "RNI18n": [
+      "2.0.14"
+    ],
+    "RNAwesomeCardIO": [
+      "0.8.2"
+    ],
+    "RNSVG": [
+      "12.1.0"
+    ],
+    "RNReactNativeHapticFeedback": [
+      "1.9.0"
+    ],
+    "ReactNativePayments": [
+      "0.7.19"
+    ],
+    "react-native-webview": [
+      "9.4.0"
+    ],
+    "RNDeviceInfo": [
+      "5.5.6"
+    ],
+    "react-native-encrypted-storage": [
+      "4.0.3"
+    ],
+    "react-native-wallet": [
+      "1.0.8"
+    ],
+    "react-native-select-contact": [
+      "1.6.3"
+    ]
+  }
+}
