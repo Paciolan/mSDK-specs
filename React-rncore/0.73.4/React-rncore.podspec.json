@@ -1,0 +1,20 @@
+{
+  "name": "React-rncore",
+  "version": "0.73.4",
+  "summary": "Fabric for React Native.",
+  "homepage": "https://reactnative.dev/",
+  "license": "MIT",
+  "authors": "Meta Platforms, Inc. and its affiliates",
+  "platforms": {
+    "ios": "13.4"
+  },
+  "source": {"git": "https://github.com/Paciolan/mSDK-pod.git"},
+  "resource_bundles": {"React-rncore": [ "PaciolanSDK/Assets/react/renderer/components/rncore/**/*.{h,mm,cpp}"]},
+  "pod_target_xcconfig": {
+    "USE_HEADERMAP": "YES",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/PaciolanSDK/Assets\" \"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core\" \"$(PODS_ROOT)/Headers/Private/React-Fabric\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx\" \"${PODS_CONFIGURATION_BUILD_DIR}/React-FabricImage/React_FabricImage.framework/Headers\"",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
+  }
+
+  ,"script_phases": [{"name": "Copy Files Script", "script": "mkdir -p \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components/rncore\" && cp -R \"${PODS_TARGET_SRCROOT}/PaciolanSDK/Assets/react/renderer/components/rncore\" \"${PODS_ROOT}/React-Fabric/packages/react-native/ReactCommon/react/renderer/components\"", "execution_position": "before_compile"}]
+}

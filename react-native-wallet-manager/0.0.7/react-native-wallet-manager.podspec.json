@@ -1,0 +1,21 @@
+{
+  "name": "react-native-wallet-manager",
+  "version": "0.0.7",
+  "summary": "Provides some Apple Wallet's functionality, like adding passes, removing passes and checking passises for existing.",
+  "homepage": "https://github.com/dev-family/react-native-wallet-manager#readme",
+  "license": "MIT",
+  "authors": "mshekspirtt <mshekspirt@gmail.com> (https://github.com/mshekspirtt)",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/dev-family/react-native-wallet-manager.git",
+    "tag": "0.0.7"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}
